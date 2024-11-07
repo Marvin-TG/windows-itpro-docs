@@ -16,7 +16,7 @@ appliesto:
 
 # Understanding migration XML files
 
-The behavior of a basic User State Migration Tool (USMT) migration can be modified by using XML files. These files provide instructions on where and how the USMT tools should gather and apply files and settings. USMT includes three XML files that can be used to customize a basic migration: the `MigDocs.xml` and `MigUser.xml` files, which modify how files are discovered on the source computer, and the MigApps.xml file, which is required in order to migrate supported application settings. Custom XML files and a `Config.xml` file can be created and edited to further customize the migration.
+The behavior of a basic User State Migration Tool (USMT) migration can be modified by using XML files. These files provide instructions on where and how the USMT tools should gather and apply files and settings. USMT includes three XML files that can be used to customize a basic migration: the `MigDocs.xml` and `MigUser.xml` files, which modify how files are discovered on the source computer, and the MigApp.xml file, which is required in order to migrate supported application settings. Custom XML files and a `Config.xml` file can be created and edited to further customize the migration.
 
 This article provides an overview of the default and custom migration XML files and includes guidelines for creating and editing a customized version of the `MigDocs.xml` file. The `MigDocs.xml` file uses the new `GenerateDocPatterns` function available in USMT to automatically find user documents on a source computer.
 
